@@ -1,6 +1,6 @@
 test:
   deploymentName: hello-deployment
-  image: us-central1-docker.pkg.dev/vaulted-harbor-476903-t8/docker-repo/hello:1.0.6
+  image: us-central1-docker.pkg.dev/vaulted-harbor-476903-t8/docker-repo/hello:1.0.7
   replicas: 2
   serviceName: hello-service
   servicetype: NodePort
